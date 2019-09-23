@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import styled from "@emotion/styled";
 import throttle from "lodash/throttle";
 import { graphql, useStaticQuery } from "gatsby";
-import { Disqus, CommentCount } from "gatsby-plugin-disqus";
+import { Disqus } from "gatsby-plugin-disqus";
 
 import Layout from "@components/Layout";
 import MDXRenderer from "@components/MDX";
@@ -95,7 +95,6 @@ function Article({ pageContext, location }) {
       <MobileControls>
         <ArticleControls />
       </MobileControls>
-      <CommentCount config={disqusConfig} placeholder={'...'} />
       <ArticleBody ref={contentSectionRef}>
         <MDXRenderer content={article.body}>
           <ArticleShare />
@@ -126,6 +125,7 @@ const MobileControls = styled.div`
     display: none;
   `}
 `;
+
 
 const ArticleBody = styled.article`
   position: relative;
