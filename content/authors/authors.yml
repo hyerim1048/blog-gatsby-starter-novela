@@ -1,8 +1,7 @@
-- name: Dennis Brotzky
+- name: Henie
   bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
-  avatar: ./avatars/dennis-brotzky.jpg
+    Written by Henie who lives and works in Seoul building useful things.
+  avatar: ./avatars/image00012.jpeg
   featured: true
   social:
     - name: github

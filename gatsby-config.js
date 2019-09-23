@@ -1,25 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Plimground by Henie`,
+    name: `Plimground`,
+    siteUrl: `https://plimground.netlify.com/`,
+    description: `This site is a place for programming ,math, science and all about data`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to Plimground.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/hyerim1048`,
       },
       {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        name: `noinstagram`,
+        url: `https://instagram.com/`,
       },
       {
         name: `linkedin`,
@@ -38,7 +38,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        authorsPage: true,
+        authorsPage: false,
         sources: {
           local: true,
           // contentful: true,
@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Plimground by Henie`,
+        short_name: `Plimground`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
