@@ -44,8 +44,9 @@ function Article({ pageContext, location }) {
   const name = results.allSite.edges[0].node.siteMetadata.name;
 
   const { article, authors, mailchimp, next } = pageContext;
+  console.log(article.title);
   const disqusConfig = {
-    url: `${ "plimground.netlify.com" + location.pathname}`,
+    url: `${ "https://plimground.netlify.com" + location.pathname}`,
     identifier: article.id,
     title: article.title,
   }
