@@ -10,24 +10,12 @@ module.exports = {
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/`,
-      },
-      {
         name: `github`,
         url: `https://github.com/hyerim1048`,
       },
       {
-        name: `noinstagram`,
-        url: `https://instagram.com/`,
-      },
-      {
         name: `linkedin`,
         url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
       },
     ],
   },
