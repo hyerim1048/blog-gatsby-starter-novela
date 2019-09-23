@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
+    "disqus-react": "^1.0.7",
     "gatsby": "^2.13.41",
+    "gatsby-plugin-disqus": "^1.1.2",
     "gatsby-plugin-manifest": "^2.2.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
