@@ -101,15 +101,16 @@ function Article({ pageContext, location }) {
           <ArticleShare />
         </MDXRenderer>
       </ArticleBody>
-      <Disqus config={disqusConfig} />
+      
       {mailchimp && article.subscription && <Subscription />}
       {next.length > 0 && (
         <NextArticle narrow>
-          <FooterNext>More articles from {name}</FooterNext>
+          <FooterNext>More Articles by Henie </FooterNext>
           <ArticlesNext articles={next} />
           <FooterSpacer />
         </NextArticle>
       )}
+      <Disqus config={disqusConfig} />
     </Layout>
   );
 }
