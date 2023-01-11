@@ -16,7 +16,7 @@
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-netlify-cms": "^4.1.18",
     "gatsby-remark-katex": "^3.1.10",
-    "gatsby-transformer-remark": "^2.6.24",
+    "gatsby-transformer-remark": "^5.25.1",
     "katex": "^0.11.1",
     "netlify-cms-app": "^2.9.7",
     "react": "^16.8.6",
